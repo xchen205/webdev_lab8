@@ -48,6 +48,9 @@ goals:
 }
 
 #navbar-container ul li {
+}
+
+#navbar-container ul li a {
   text-decoration: none;
 }
 
@@ -61,5 +64,8 @@ goals:
 }
 
 #sidebar-container ul li {
+}
+
+#sidebar-container ul li a {
   text-decoration: none;
 }
