@@ -10,8 +10,6 @@ main:
   text-decoration: underline overline;
 
 side:
-  width: 20%
-  display: block;
 
 goals:
   Turn <nav> into a centered navigation list at the top of the page.
@@ -55,6 +53,7 @@ goals:
   position: fixed;
   height: 100%;
   background-color: red;
+  width: 20%
 }
 
 #sidebar-container ul {
@@ -65,6 +64,7 @@ goals:
 #sidebar-container ul li {
   text-align: center;
   padding: 15px 0;
+  display: block;
 }
 
 #sidebar-container ul li a {
