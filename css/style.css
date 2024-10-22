@@ -2,10 +2,8 @@
 main:
   position: relative;
   margin: 0;
-  position: relative;
   float: left;
   float: left;
-  right: 50%;
   display: block;
   text-decoration: underline overline;
 
@@ -21,6 +19,7 @@ goals:
 
 
 #main-navbar {
+  position: relative;
   background-color: blue;
   width: 100%;
   overflow: hidden;
@@ -29,6 +28,7 @@ goals:
 #navbar-container ul {
   position: relative;
   left: 50%;
+  right: 50%;
   padding: 0;
   list-style-type: none;
   display: block;
