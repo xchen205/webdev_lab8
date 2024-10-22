@@ -45,6 +45,9 @@ goals:
 
 #navbar-container ul {
   list-style-type: none;
+}
+
+#navbar-container ul li {
   text-decoration: none;
 }
 
@@ -55,5 +58,8 @@ goals:
 
 #sidebar-container ul {
   list-style-type: none;
+}
+
+#sidebar-container ul li {
   text-decoration: none;
 }
