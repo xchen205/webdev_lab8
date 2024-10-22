@@ -33,12 +33,12 @@ goals:
 #navbar-container ul li {
   float: left;
   padding: 10px 20px;
+  position: relative;
   right: 50%;
   display: block;
 }
 
 #navbar-container ul li a {
-  position: relative;
   text-decoration: none;
   color: #fff;
 }
