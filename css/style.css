@@ -39,11 +39,11 @@ goals:
 
 #navbar-container ul li {
   left: 50%;
-  color: #fff;
 }
 
 #navbar-container ul li a {
   text-decoration: none;
+  color: #fff;
 }
 
 #navbar-container ul li a:hover {
@@ -65,11 +65,11 @@ goals:
 #sidebar-container ul li {
   text-align: center;
   padding: 15px 0;
-  color: #fff;
 }
 
 #sidebar-container ul li a {
   text-decoration: none;
+  color: #fff;
 }
 
 #sidebar-container ul li a:hover {
