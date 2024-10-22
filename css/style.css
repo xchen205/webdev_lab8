@@ -1,6 +1,5 @@
 /*
 main:
-  float: left;
   position: relative;
   margin: 0;
   position: relative;
@@ -38,6 +37,7 @@ goals:
 }
 
 #navbar-container ul li {
+  float: left;
   padding: 10px 20px;
 }
 
