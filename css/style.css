@@ -1,6 +1,5 @@
 /*
 main:
-  overflow: hidden;
   float: left;
   position: relative;
   margin: 0;
@@ -32,9 +31,10 @@ goals:
 */
 
 
-#mainbar {
+#main-navbar {
   background-color: blue;
   width: 100%;
+  overflow: hidden;
 }
 
 #navbar-container ul {
