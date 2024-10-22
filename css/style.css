@@ -36,6 +36,13 @@ side:
   color: #fff;
   text-decoration: none;
   background-color: #000;
+
+goals:
+  Turn <nav> into a centered navigation list at the top of the page.
+  A background color should stretch the entire length of the page.
+  Turn <aside> into a side navigation bar on the right side of the page.
+  The side navigation should scroll with the page (hint: fixed position).
+  Both navigation bars should have no bullet points or underlines.
 */
 
 
