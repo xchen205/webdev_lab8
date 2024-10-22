@@ -6,7 +6,6 @@ main:
   position: relative;
   float: left;
   float: left;
-  position: relative;
   right: 50%;
   display: block;
   text-decoration: underline overline;
@@ -31,6 +30,7 @@ goals:
 }
 
 #navbar-container ul {
+  position: relative;
   left: 50%;
   padding: 0;
   list-style-type: none;
