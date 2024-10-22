@@ -15,7 +15,6 @@ main:
   display: block;
   padding: 10px 20px;
   color: #fff;
-  text-decoration: none;
   background-color: #000;
   text-decoration: underline overline;
 
@@ -28,7 +27,6 @@ side:
   display: block;
   padding: 15px 0;
   color: #fff;
-  text-decoration: none;
   background-color: #000;
 
 goals:
@@ -42,12 +40,20 @@ goals:
 
 #mainbar {
   background-color: blue;
-  list-style-type: none;
   width: 100%;
+}
+
+#navbar-container ul {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 #sidebar {
   position: fixed;
-  list-style-type: none;
   height: 100%;
+}
+
+#sidebar-container ul {
+  list-style-type: none;
+  text-decoration: none;
 }
