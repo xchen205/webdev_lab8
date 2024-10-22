@@ -6,7 +6,6 @@ main:
   margin: 0;
   padding: 0;
   position: relative;
-  left: 50%
   float: left;
   float: left;
   position: relative;
@@ -23,8 +22,6 @@ side:
   width: 20%
   padding: 0;
   display: block;
-  color: #fff;
-  background-color: #000;
 
 goals:
   Turn <nav> into a centered navigation list at the top of the page.
@@ -45,6 +42,7 @@ goals:
 }
 
 #navbar-container ul li {
+  left: 50%;
 }
 
 #navbar-container ul li a {
@@ -61,6 +59,7 @@ goals:
   text-align: center;
   list-style-type: none;
   padding: 15px 0;
+  color: #fff;
 }
 
 #sidebar-container ul li {
@@ -68,4 +67,8 @@ goals:
 
 #sidebar-container ul li a {
   text-decoration: none;
+}
+
+#sidebar-container ul li a:hover {
+  background-color: #000;
 }
