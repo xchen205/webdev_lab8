@@ -12,8 +12,6 @@ main:
   display: block;
   display: block;
   padding: 10px 20px;
-  color: #fff;
-  background-color: #000;
   text-decoration: underline overline;
 
 side:
@@ -41,10 +39,15 @@ goals:
 
 #navbar-container ul li {
   left: 50%;
+  color: #fff;
 }
 
 #navbar-container ul li a {
   text-decoration: none;
+}
+
+#navbar-container ul li a:hover {
+  background-color: #000;
 }
 
 #sidebar {
@@ -57,12 +60,12 @@ goals:
 #sidebar-container ul {
   padding: 0;
   list-style-type: none;
-  color: #fff;
 }
 
 #sidebar-container ul li {
   text-align: center;
   padding: 15px 0;
+  color: #fff;
 }
 
 #sidebar-container ul li a {
