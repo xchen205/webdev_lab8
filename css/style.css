@@ -18,7 +18,6 @@ main:
 
 side:
   width: 20%
-  padding: 0;
   display: block;
 
 goals:
@@ -56,13 +55,14 @@ goals:
 }
 
 #sidebar-container ul {
-  text-align: center;
+  padding: 0;
   list-style-type: none;
-  padding: 15px 0;
   color: #fff;
 }
 
 #sidebar-container ul li {
+  text-align: center;
+  padding: 15px 0;
 }
 
 #sidebar-container ul li a {
